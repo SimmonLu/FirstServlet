@@ -13,4 +13,17 @@
         <servlet-name>s1</servlet-name>
         <url-pattern>/s1</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>s3</servlet-name>
+        <servlet-class>com.xinlu.test.TestServlet3</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>s3</servlet-name>
+        <url-pattern>/s3</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
